@@ -8,6 +8,7 @@ h1 {
 }
 
 h3 {
+  margin: 10px;
   text-align: center;
 }
 
@@ -16,12 +17,12 @@ h3 {
   margin: 3px;
 }
 
-.calculate {
+#calculate {
   background-color: green;
   color: aliceblue;
 }
 
-.empty {
+#empty {
   background-color: darkorange;
   color: aliceblue;
 }
@@ -36,7 +37,7 @@ background-color: rgb(226, 230, 237);
   background-color: rgb(23, 23, 23);
 }
 
-#dark {
+#dark, #empty{
   display: none;
 }
 
