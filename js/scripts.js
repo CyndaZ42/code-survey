@@ -18,7 +18,7 @@ $(document).ready(function() {
     const beverage = parseInt($("#beverage").val());
     const food = parseInt($("#food").val());
     const score = (beverage + food);
-    if (food === 0 || beverage === 0) {
+    if (food === 0 || beverage === 0 || animal === 0 || car === 0) {
       alert("Please complete all questions")
     }
     else{

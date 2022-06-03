@@ -3,6 +3,14 @@ body {
   background-color: rgb(23, 23, 23);
 }
 
+h1 {
+  margin-bottom: 30px;
+}
+
+h3 {
+  text-align: center;
+}
+
 .btn {
   border-radius: 0.3rem;
   margin: 3px;
@@ -10,6 +18,11 @@ body {
 
 .calculate {
   background-color: green;
+  color: aliceblue;
+}
+
+.empty {
+  background-color: darkorange;
   color: aliceblue;
 }
 
