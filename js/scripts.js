@@ -23,18 +23,16 @@ $(document).ready(function() {
     if (food === 0 || beverage === 0 || animal === 0 || car === 0) {
       alert("Please complete all questions")
     }
-    else if(score < 10) {
-      $("#output").text("programing language 1");
-      $("#empty").show();
-      $("#calculate").hide();
-    }
-    else if(score > 20) {
-      $("#output").text("programing language 2");
-      $("#empty").show();
-      $("#calculate").hide();
-    }
-    else if(score > 9) {
-      $("#output").text("programing language 3");
+    else {
+      if(score < 13) {
+        $("#output").text("Based on your answers, you should learn JavaScript");
+      }
+      else if(score > 20) {
+        $("#output").text("Based on your answers, you should learn Python");
+      }
+      else if(score > 12) {
+        $("#output").text("Based on your answers, you should learn C++");
+      }
       $("#empty").show();
       $("#calculate").hide();
     }
