@@ -5,4 +5,7 @@ $(document).ready(function() {
     const food = parseInt($("#food").val());
     alert(beverage + food);
   });
+  $("#form2").clear(function() {
+    location.reload();
+  });
 });
