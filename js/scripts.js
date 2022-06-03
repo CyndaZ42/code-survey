@@ -3,7 +3,13 @@ $(document).ready(function() {
     event.preventDefault();
     const beverage = parseInt($("#beverage").val());
     const food = parseInt($("#food").val());
-    alert(beverage + food);
+    const score = (beverage + food);
+    if (food === 0 || beverage === 0) {
+      alert("Please complete all questions")
+    }
+    else{
+          alert(score);
+    }
   });
   $("#form2").clear(function() {
     location.reload();
