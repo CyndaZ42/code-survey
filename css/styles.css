@@ -4,12 +4,27 @@ body {
 }
 
 h1 {
-  margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 h3 {
   margin: 10px;
   text-align: center;
+}
+
+select {
+  margin-bottom: 25px;
+}
+
+.container {
+  padding: 15px;
+  box-shadow: 30px;
+  border: solid;
+  border-width: 6px;
+  border-radius: 2rem;
+  border-color: rgba(0, 0, 255, 0.1);
+  background-color: rgba(0, 0, 255, 0.6);
 }
 
 .btn {
@@ -18,6 +33,10 @@ h3 {
   padding: 5px;
   margin-top: 20px;
   margin-left: 38%;
+}
+
+#output {
+  text-align: center;
 }
 
 #calculate {
