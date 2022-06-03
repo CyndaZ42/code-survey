@@ -28,7 +28,7 @@ $(document).ready(function() {
       if(score < 13) {
         $("#output").text("Based on your answers, you should learn JavaScript");
       }
-      else if(score > 20) {
+      else if(score > 24) {
         $("#output").text("Based on your answers, you should learn Python");
       }
       else if(score > 12) {
