@@ -1,0 +1,35 @@
+body {
+  color: rgb(226, 230, 237);
+  background-color: rgb(23, 23, 23);
+}
+
+.btn {
+  border-radius: 0.3rem;
+  margin: 3px;
+}
+
+.calculate {
+  background-color: green;
+  color: aliceblue;
+}
+
+.light-theme {
+color: rgb(23, 23, 23);
+background-color: rgb(226, 230, 237);
+}
+
+.dark-theme {
+  color: rgb(226, 230, 237);
+  background-color: rgb(23, 23, 23);
+}
+
+#dark {
+  display: none;
+}
+
+#light, #dark {
+  border-color: transparent;
+  background-color: transparent;
+  padding: 0px;
+  border-radius: 4rem;
+}
