@@ -19,8 +19,9 @@ $(document).ready(function() {
     const food = parseInt($("#food").val());
     const animal = parseInt($("#animal").val());
     const car = parseInt($("#car").val());
-    const score = (beverage + food + animal + car);
-    if (food === 0 || beverage === 0 || animal === 0 || car === 0) {
+    const game = parseInt($("#game").val());
+    const score = (beverage + food + animal + car + game);
+    if (food === 0 || beverage === 0 || animal === 0 || car === 0 || game === 0) {
       alert("Please complete all questions")
     }
     else {
